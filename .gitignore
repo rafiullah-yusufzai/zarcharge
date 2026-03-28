@@ -1,0 +1,134 @@
+# ===============================
+# Python / Django
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-*
+*.sqlite3
+
+# Django static files
+staticfiles/
+static/
+media/
+mediafiles/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# ===============================
+# Node / React
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+dist/
+dist-ssr/
+*.local
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+# Testing
+# ===============================
+.coverage
+.coverage.*
+.htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+.tox/
+coverage.xml
+*.cover
+*.py,cover
+
+# ===============================
+# PostgreSQL
+# ===============================
+*.pgdata
+*.sql
+*.dump
+pg_hba.conf.bak
+
+# ===============================
+# Miscellaneous
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+.cache/
+.venv/
+.virtualenv/
+.eggs/
+*.egg-info/
+.python-version
+
+# ===============================
+# Deployment
+# ===============================
+*.pid
+*.seed
+*.pid.lock
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# ===============================
+# Frontend Build Output
+# ===============================
+build/
+dist/
+.parcel-cache/
+.svelte-kit/
+.next/
+.nuxt/
+.output/
+.storybook-out/
+
+# ===============================
+# Environment & Secrets
+# ===============================
+.env
+.env.*
+!.env.example
